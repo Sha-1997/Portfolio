@@ -755,6 +755,9 @@ width:30%;
       margin-bottom:.5rem;
     
     }
+    .experience-list{
+      list-style:circle;
+    }
     .experience__date{
       font-size:var(--normal-font-size);
       margin-bottom: 1.5rem;

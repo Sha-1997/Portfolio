@@ -599,6 +599,9 @@ width:30%;
 .show-scroll{
   bottom: 3rem;
 }
+.experience-list{
+      list-style:circle;
+    }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 300px){
@@ -743,6 +746,7 @@ width:30%;
     }
     .experience__content{
       row-gap:4rem;
+      margin-top: 20px;
     }
     .experience__data{
       grid-template-columns:320px 380px;
@@ -755,9 +759,7 @@ width:30%;
       margin-bottom:.5rem;
     
     }
-    .experience-list{
-      list-style:circle;
-    }
+    
     .experience__date{
       font-size:var(--normal-font-size);
       margin-bottom: 1.5rem;
